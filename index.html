@@ -22,7 +22,7 @@
       background:#111;
       text-align:center;
       padding:1.5rem;
-      font-size:2.2rem;
+      font-size:2.3rem;
       font-weight:700;
       letter-spacing:.5px;
       color:var(--pri);
@@ -59,38 +59,20 @@
       box-shadow:0 0 25px rgba(0,255,213,.35);
       display:block;
     }
-    .title{
-      margin:0;
-      font-size:1.25rem;
-      text-align:center;
-    }
+    .title{margin:0;font-size:1.2rem;text-align:center}
     .desc{margin:0;color:#cfcfcf;text-align:center}
-    .price{
-      margin-top:.25rem;
-      color:var(--acc);
-      font-weight:700;
-      font-size:1.2rem;
-    }
-    .contact{
-      text-align:center;
-      padding:2rem 1rem 3rem;
-    }
+    .price{margin-top:.25rem;color:var(--acc);font-weight:700;font-size:1.1rem}
+    .contact{text-align:center;padding:2rem 1rem 3rem}
     .cta{
-      background:#25D366;
-      color:#fff;
-      padding:1rem 1.6rem;
-      border-radius:10px;
-      text-decoration:none;
-      font-weight:700;
-      display:inline-block;
-      box-shadow:0 10px 22px rgba(0,0,0,.25);
+      background:#25D366;color:#fff;padding:1rem 1.6rem;border-radius:10px;
+      text-decoration:none;font-weight:700;display:inline-block;box-shadow:0 10px 22px rgba(0,0,0,.25)
     }
-    footer{
-      background:#111;
-      color:#aaa;
-      text-align:center;
-      padding:1rem;
-      font-size:.9rem;
+    footer{background:#111;color:#aaa;text-align:center;padding:1rem;font-size:.9rem}
+    /* Botón flotante WhatsApp (opcional) */
+    .whatsapp-float{
+      position:fixed;right:18px;bottom:18px;width:56px;height:56px;display:grid;place-items:center;
+      border-radius:999px;background:#25D366;color:#fff;font-size:24px;text-decoration:none;
+      box-shadow:0 10px 25px rgba(0,0,0,.28);z-index:9999
     }
   </style>
 </head>
@@ -103,21 +85,36 @@
   </section>
 
   <section class="grid">
-    <!-- Interfaz DMX (imagen sola con título) -->
+    <!-- Cabezas Móviles (producto original) -->
     <article class="card">
-      <img src="ChatGPT Image 17 sept 2025, 20_27_13.png" alt="Interfaz DMX USB-DMX512 LIXADA">
-      <h3 class="title">Interfaz DMX</h3>
-      <p class="desc">USB-DMX512 LIXADA para controlar iluminación desde tu computadora.</p>
-      <!-- Opcional: muestra precio -->
-      <!-- <div class="price">$300 MXN</div> -->
+      <img src="ChatGPT Image 13 jul 2025, 22_16_10.png?v=3" alt="Cabezas Móviles Beam 7R con aro LED blanco">
+      <h3 class="title">Cabezas Móviles Beam 7R con aro LED blanco</h3>
+      <p class="desc">Perfectas para XV años, bodas, antros y producciones.</p>
+      <div class="price">Precio: $5,500 MXN el par</div>
     </article>
 
-    <!-- Láser 5W (par en torres) -->
+    <!-- Controlador DMX Bluetooth (producto original) -->
     <article class="card">
-      <img src="ChatGPT Image 17 sept 2025, 19_33_17.png" alt="Láser 5W profesional en torres">
+      <img src="A_digital_photograph_showcases_a_USB_ROM-DMX_inter.png?v=3" alt="Controlador DMX Bluetooth para celular">
+      <h3 class="title">Controlador DMX Bluetooth para Celular</h3>
+      <p class="desc">Controla tus luces desde el teléfono. Compatible con apps de iluminación.</p>
+      <div class="price">Precio: $350 MXN c/u</div>
+    </article>
+
+    <!-- Interfaz DMX (nueva imagen sola) -->
+    <article class="card">
+      <img src="ChatGPT Image 17 sept 2025, 20_27_13.png?v=3" alt="Interfaz DMX USB-DMX512 LIXADA">
+      <h3 class="title">Interfaz DMX</h3>
+      <p class="desc">USB-DMX512 LIXADA para controlar la iluminación desde tu computadora.</p>
+      <!-- <div class="price">$XXX MXN</div> -->
+    </article>
+
+    <!-- Láser 5W (nueva imagen en torres) -->
+    <article class="card">
+      <img src="ChatGPT Image 17 sept 2025, 19_33_17.png?v=3" alt="Láser 5W profesional en torres">
       <h3 class="title">Láser 5W Profesional</h3>
       <p class="desc">Potencia para eventos de lujo, bodas y corporativos.</p>
-      <!-- <div class="price">$3,900 MXN</div> -->
+      <!-- <div class="price">$XX,XXX MXN</div> -->
     </article>
   </section>
 
@@ -129,5 +126,8 @@
   <footer>
     &copy; 2025 Producciones Lakos. Todos los derechos reservados.
   </footer>
+
+  <!-- Botón flotante WhatsApp (opcional) -->
+  <!-- <a class="whatsapp-float" href="https://wa.me/525538065803" target="_blank" rel="noopener">💬</a> -->
 </body>
 </html>
